@@ -44,8 +44,8 @@ const NewComment = (props) => {
 
   return (
     <div>
-      <h2>Оствьте комментарий</h2>
-      <h3>Что вы думаете об этом видео?</h3>
+      <h2 className={classes.firstHeader}>Оствьте комментарий</h2>
+      <h3 className={classes.secondHeader}>Что вы думаете об этом видео?</h3>
       <Card>
         <form className={classes.container} onSubmit={formSubmitHandler}>
           <div className={classes.formBlock}>

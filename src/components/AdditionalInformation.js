@@ -13,7 +13,7 @@ const AdditionalInformation = (props) => {
             src={props.data.image}
             alt={props.title}
             width="232px"
-            height="367px"
+            height="345.5px"
           />
         </Card>
         <div>

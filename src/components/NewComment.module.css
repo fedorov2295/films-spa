@@ -44,10 +44,10 @@ textarea:focus {
 	font-weight: 500;
 }
 
-h2 {
+.firstHeader {
 	margin: 0 0 38px 0;
 }
 
-h3 {
+.secondHeader {
 	margin: 0 0 48px 0;
 }
