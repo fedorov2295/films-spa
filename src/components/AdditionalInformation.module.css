@@ -1,0 +1,72 @@
+.container {
+	background-color: #2C2C37;
+	padding: 57px 61px;
+	display: flex;
+	column-gap: 40px;
+}
+
+.container h3 {
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+@media (max-width: 1440px) {
+	.container {
+		padding: 29px 32px;
+	}
+}
+
+.blocks {
+	margin-top: 12px;
+}
+
+.buttonBlocks {
+	margin-top: 24px;
+}
+
+.buttonBlock {
+	margin-top: 20px;
+}
+
+.iconBlocks {
+	margin-top: 21px;
+	display: flex;
+	column-gap: 9px;
+}
+
+.label {
+	background-color: #747587;
+	color: #21222D;
+	font-size: 10px;
+	font-weight: bold;
+	height: 15px;
+	border-radius: 13px;
+	padding: 2px 4px;
+	margin-right: 12px;
+}
+
+.production {
+	display: flex;
+	color: #747587;
+	font-size: 14px;
+	font-weight: 500;
+	padding: 0;
+}
+
+.prodInfo {
+	margin-left: 20px;
+}
+
+.prodInfo:first-of-type {
+	margin: 0;
+	list-style: none;
+}
+
+.mark {
+	font-weight: 700;
+}
+
+.circle {
+	flex: 0 0 50px;
+}

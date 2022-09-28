@@ -1,0 +1,22 @@
+.container {
+	background-color: #2C2C37;
+	padding: 40px 44px;
+	column-gap: 40px;
+}
+
+.container h2 {
+	font-size: 20px;
+	font-weight: bold;
+	margin: 0 0 5px 0;
+}
+
+.container span {
+	color: #747587;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.container p {
+	font-size: 20px;
+	font-weight: 500;
+}

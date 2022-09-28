@@ -1,0 +1,37 @@
+.mainPage {
+  display: flex;
+  gap: 25px;
+}
+
+.advertisement {
+  display: none;
+  width: 33%;
+}
+
+.content {
+  width: 100%;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+@media (min-width: 1440px) {
+  .advertisement {
+    display: block;
+  }
+}
+
+@media (max-width: 1024px) {
+  h2 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1440px) {
+  h2 {
+    font-size: 24px;
+  }
+}

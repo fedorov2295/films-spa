@@ -1,0 +1,37 @@
+.button {
+	height: 50px;
+	width: 100%;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 12px;
+	border-radius: 24px;
+	border: none;
+	cursor: pointer;
+}
+
+.blue {
+	background-color: #188BF5;
+}
+
+.green {
+	background-color: #4B8261;
+}
+
+.grey {
+	background-color: #21222D;
+}
+
+.error {
+	background-color: transparent;
+	border: 1.5px solid #DE4154;
+}
+
+.additionalText {
+	font-weight: 400;
+	margin-top: 4px;
+}
